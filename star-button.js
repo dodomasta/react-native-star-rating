@@ -14,6 +14,8 @@ import IoniconsIcons from 'react-native-vector-icons/Ionicons';
 import MaterialIconsIcons from 'react-native-vector-icons/MaterialIcons';
 import OcticonsIcons from 'react-native-vector-icons/Octicons';
 import ZocialIcons from 'react-native-vector-icons/Zocial';
+import {Icon} from '@shoutem/ui'
+
 
 const iconSets = {
   Entypo: EntypoIcons,
@@ -24,6 +26,7 @@ const iconSets = {
   MaterialIcons: MaterialIconsIcons,
   Octicons: OcticonsIcons,
   Zocial: ZocialIcons,
+  Icon: Icon
 };
 
 class StarButton extends Component {
