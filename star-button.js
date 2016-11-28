@@ -55,6 +55,7 @@ class StarButton extends Component {
         }}
       >
         <Icon
+          style={{color:this.props.starColor}}
           name={this.props.starIconName}
           size={this.props.starSize}
           color={this.props.starColor}
